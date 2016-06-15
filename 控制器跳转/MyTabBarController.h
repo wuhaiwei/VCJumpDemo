@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  MyTabBarController.h
 //  控制器跳转
 //
 //  Created by 吴海伟 on 16/6/15.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface MyTabBarController : UITabBarController
 
 @end
-

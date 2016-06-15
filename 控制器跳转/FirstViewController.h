@@ -2,7 +2,7 @@
 //  FirstViewController.h
 //  控制器跳转
 //
-//  Created by admin on 16/6/15.
+//  Created by 吴海伟 on 16/6/15.
 //  Copyright © 2016年 KuaiYouJia. All rights reserved.
 //
 
@@ -10,6 +10,4 @@
 
 @interface FirstViewController : UIViewController
 
-
 @end
-

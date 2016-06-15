@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		84F910AD1D111A7900FCB685 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F910AC1D111A7900FCB685 /* main.m */; };
 		84F910B01D111A7900FCB685 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F910AF1D111A7900FCB685 /* AppDelegate.m */; };
-		84F910B31D111A7900FCB685 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F910B21D111A7900FCB685 /* FirstViewController.m */; };
-		84F910B61D111A7900FCB685 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F910B51D111A7900FCB685 /* SecondViewController.m */; };
-		84F910B91D111A7900FCB685 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F910B71D111A7900FCB685 /* Main.storyboard */; };
 		84F910BB1D111A7900FCB685 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F910BA1D111A7900FCB685 /* Assets.xcassets */; };
 		84F910BE1D111A7900FCB685 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F910BC1D111A7900FCB685 /* LaunchScreen.storyboard */; };
+		84F910C71D111BE000FCB685 /* MyTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F910C61D111BE000FCB685 /* MyTabBarController.m */; };
+		84F910CA1D111D6C00FCB685 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F910C91D111D6C00FCB685 /* FirstViewController.m */; };
+		84F910CD1D111D7800FCB685 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F910CC1D111D7800FCB685 /* SecondViewController.m */; };
+		84F910D01D111FB600FCB685 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F910CF1D111FB600FCB685 /* ThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +22,17 @@
 		84F910AC1D111A7900FCB685 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84F910AE1D111A7900FCB685 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84F910AF1D111A7900FCB685 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		84F910B11D111A7900FCB685 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		84F910B21D111A7900FCB685 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		84F910B41D111A7900FCB685 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		84F910B51D111A7900FCB685 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		84F910B81D111A7900FCB685 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84F910BA1D111A7900FCB685 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84F910BD1D111A7900FCB685 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84F910BF1D111A7900FCB685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F910C51D111BE000FCB685 /* MyTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabBarController.h; sourceTree = "<group>"; };
+		84F910C61D111BE000FCB685 /* MyTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabBarController.m; sourceTree = "<group>"; };
+		84F910C81D111D6C00FCB685 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		84F910C91D111D6C00FCB685 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		84F910CB1D111D7800FCB685 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		84F910CC1D111D7800FCB685 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		84F910CE1D111FB600FCB685 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		84F910CF1D111FB600FCB685 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,11 +67,14 @@
 			children = (
 				84F910AE1D111A7900FCB685 /* AppDelegate.h */,
 				84F910AF1D111A7900FCB685 /* AppDelegate.m */,
-				84F910B11D111A7900FCB685 /* FirstViewController.h */,
-				84F910B21D111A7900FCB685 /* FirstViewController.m */,
-				84F910B41D111A7900FCB685 /* SecondViewController.h */,
-				84F910B51D111A7900FCB685 /* SecondViewController.m */,
-				84F910B71D111A7900FCB685 /* Main.storyboard */,
+				84F910C51D111BE000FCB685 /* MyTabBarController.h */,
+				84F910C61D111BE000FCB685 /* MyTabBarController.m */,
+				84F910C81D111D6C00FCB685 /* FirstViewController.h */,
+				84F910C91D111D6C00FCB685 /* FirstViewController.m */,
+				84F910CB1D111D7800FCB685 /* SecondViewController.h */,
+				84F910CC1D111D7800FCB685 /* SecondViewController.m */,
+				84F910CE1D111FB600FCB685 /* ThirdViewController.h */,
+				84F910CF1D111FB600FCB685 /* ThirdViewController.m */,
 				84F910BA1D111A7900FCB685 /* Assets.xcassets */,
 				84F910BC1D111A7900FCB685 /* LaunchScreen.storyboard */,
 				84F910BF1D111A7900FCB685 /* Info.plist */,
@@ -143,7 +150,6 @@
 			files = (
 				84F910BE1D111A7900FCB685 /* LaunchScreen.storyboard in Resources */,
 				84F910BB1D111A7900FCB685 /* Assets.xcassets in Resources */,
-				84F910B91D111A7900FCB685 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,24 +160,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84F910B61D111A7900FCB685 /* SecondViewController.m in Sources */,
+				84F910CD1D111D7800FCB685 /* SecondViewController.m in Sources */,
 				84F910B01D111A7900FCB685 /* AppDelegate.m in Sources */,
-				84F910B31D111A7900FCB685 /* FirstViewController.m in Sources */,
+				84F910D01D111FB600FCB685 /* ThirdViewController.m in Sources */,
 				84F910AD1D111A7900FCB685 /* main.m in Sources */,
+				84F910C71D111BE000FCB685 /* MyTabBarController.m in Sources */,
+				84F910CA1D111D6C00FCB685 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		84F910B71D111A7900FCB685 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84F910B81D111A7900FCB685 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		84F910BC1D111A7900FCB685 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
